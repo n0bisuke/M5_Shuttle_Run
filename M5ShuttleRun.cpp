@@ -1,6 +1,6 @@
 #include <M5Stack.h>
 #include "Free_Fonts.h" // Include the header file attached to this sketch
-#include "shuttlerun.h"
+#include "M5ShuttleRun.h"
 
 #define NOTE_DO_L 130.813 //ドL
 #define NOTE_SOL_L 195.998 //ソL
@@ -77,7 +77,7 @@ void levelUp(){
    levelTurnCount = 0;
 }
 
-void shuttlerun(){
+void M5ShuttleRun(){
     drawHeader("M5Stack Shuttle Run", TFT_NAVY);
     M5.Lcd.setFreeFont(FF40);
 

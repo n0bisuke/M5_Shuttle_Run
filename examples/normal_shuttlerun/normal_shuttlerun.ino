@@ -1,5 +1,5 @@
 #include <M5Stack.h>
-#include <shuttlerun.h>
+#include <M5ShuttleRun.h>
 
 void setup() {
   M5.begin();
@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   if(M5.BtnA.wasPressed()) { 
-    shuttlerun();
+    M5ShuttleRun();
   }
 
   M5.update();
