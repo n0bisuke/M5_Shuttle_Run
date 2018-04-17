@@ -82,10 +82,10 @@ void M5ShuttleRun(){
     M5.Lcd.setFreeFont(FF40);
 
     while(level < SHUTTLE_RUN_MAX_LEVEL){
-      M5.Lcd.drawString("Level: "+ (String)level, 0, 40, GFXFF);
-      M5.Lcd.drawString("Turn: " + (String)totalTurnCount, 0, 90, GFXFF);
-      M5.Lcd.drawString("Mile(m): " + (String)(totalTurnCount * 20), 0, 140, GFXFF);
-      M5.Lcd.drawString("Kcal: " + (String)(60 * (totalTurnCount * 20 * 0.001)), 0, 190, GFXFF);
+      M5.Lcd.drawString("Level: "+ (String)level +" ", 0, 40, GFXFF);
+      M5.Lcd.drawString("Turn: " + (String)totalTurnCount +" ", 0, 90, GFXFF);
+      M5.Lcd.drawString("Mile(m): " + (String)(totalTurnCount * 20) +" ", 0, 140, GFXFF);
+      M5.Lcd.drawString("Kcal: " + (String)(60 * (totalTurnCount * 20 * 0.001)) +" ", 0, 190, GFXFF);
       
       float turnTime = turnTimeLevel[level] / 9 * 1000;
       if(flag == 0){
