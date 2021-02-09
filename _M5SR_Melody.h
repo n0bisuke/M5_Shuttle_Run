@@ -4,5 +4,6 @@
 void SR_Melody_Going(int duration, float delayTime); //行き
 void SR_Melody_Returning(int duration, float delayTime); //帰り
 void SR_SE_LevelUp(); //レベルアップ音
+void SR_SE_Start(); //スタート音
 
 #endif

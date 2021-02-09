@@ -12,9 +12,15 @@ M5StackでArduino開発している人向けのライブラリです。
 使うプログラムで`#include <M5ShuttleRun.h>`でライブラリのインクルードをして、
 `M5ShuttleRun()`でシャトルランスタートです。
 
+## 動作確認
+
+* 2021/2/10 Arduino IDE v1.8.13で動作確認
+
 ## Example
 
-```
+コピペで動きます。
+
+```sr.ino
 #include <M5Stack.h>
 #include <M5ShuttleRun.h>
 

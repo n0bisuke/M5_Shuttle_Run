@@ -40,9 +40,16 @@ void SR_Melody_Returning(int duration, float delayTime){
   M5.Speaker.tone(NOTE_DO_L, duration); delay(delayTime);
 }
 
-//レベルアップ音(サウンドエフェクト)
+//レベルアップ音サウンドエフェクト
 void SR_SE_LevelUp(){
    M5.Speaker.tone(NOTE_DO_H, 10); delay(250);
    M5.Speaker.tone(NOTE_SOL, 10); delay(250);
    M5.Speaker.tone(NOTE_RE_H, 10); delay(250);
+}
+
+//スタート時サウンドエフェクト
+void SR_SE_Start(){
+   M5.Speaker.tone(NOTE_DO, 10); delay(250);
+   M5.Speaker.tone(NOTE_SOL_L, 10); delay(250);
+   M5.Speaker.tone(NOTE_RE, 10); delay(500);
 }
