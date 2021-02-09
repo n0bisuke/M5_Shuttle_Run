@@ -20,7 +20,7 @@ M5StackでArduino開発している人向けのライブラリです。
 
 コピペで動きます。
 
-```sr.ino
+```shuttlerun.ino
 #include <M5Stack.h>
 #include <M5ShuttleRun.h>
 

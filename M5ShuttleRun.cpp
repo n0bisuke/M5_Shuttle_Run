@@ -15,7 +15,6 @@ int levelTurnCount = 0; //このレベルで何回目か
 int totalTurnCount = 0; //トータルで何回目か
 int level = 1; //レベル
 
-
 void M5ShuttleRun(){
     SR_Draw_Header("M5Stack Shuttle Run", TFT_NAVY);
     M5.Lcd.setFreeFont(FF40);
